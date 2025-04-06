@@ -1,5 +1,5 @@
 ---
-title: Homework 5 - HW5: Jekyll Webpage
+title: HW5-Jekyll Webpage
 layout: project
 excerpt: "Two interactive Altair visualizations showing government building construction years and usage types by county."
 date: 2025-04-05
