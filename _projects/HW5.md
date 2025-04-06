@@ -1,6 +1,10 @@
 ---
-title: Homework 5 - Altair Interactive Visualization
+title: Homework 5 - HW5: Jekyll Webpage
 layout: project
+excerpt: "Two interactive Altair visualizations showing government building construction years and usage types by county."
+date: 2025-04-05
+tags: [Python, Altair, Vega-Lite]
+image: /assets/pngs/iSchool.png
 ---
 
 ## Plot 1: Building Construction Histogram by County
