@@ -5,14 +5,14 @@ excerpt: "Two interactive Altair visualizations showing government building cons
 date: 2025-04-05
 tags: [Python, Altair, Vega-Lite]
 image: /assets/pngs/iSchool.png
----
+
 
 ## Plot 1: Building Construction Histogram by County
 
 <iframe src="/assets/plots/plot1.html" width="700" height="450"></iframe>
 
 In plot one, I try to demonstrate the distribution of buildings(year constructed) in different counties. I select historgram as visualization since year is numeric values. By viewing this plot, we could gain insight of whether particular counties have concentrated large-scale construction in certain eras. As for the data transformation, I apply dropna.() to remove some NA values in columns County and Year Constructed to prevent missing data; also, I do not filter year since I am afraid some buildings' consturcted year do not document correctly in the original data and this is the reason some of the buildings built in 0 year. For the encodings, x-axis shows year is a continuous real-valued quantity so I use Q(quantitative); for y-axis, since I try to show total quantities of buildings; thus, I utilize count():Q to brings out total count of data objects in the group. The interactivity part allow users to chose various counties and their specific visualization. I create county_dropdown and selection for the purpose of generating county dropdown.
----
+
 
 ## Plot 2: Building Usage Types by County
 
